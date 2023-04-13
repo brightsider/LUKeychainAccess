@@ -110,13 +110,13 @@
       return kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly;
 
     case LUKeychainAccessAttrAccessibleAlways:
-      return kSecAttrAccessibleAlways;
+      return kSecAttrAccessibleAfterFirstUnlock;
 
     case LUKeychainAccessAttrAccessibleNil:
       return nil;
 
     case LUKeychainAccessAttrAccessibleAlwaysThisDeviceOnly:
-      return kSecAttrAccessibleAlwaysThisDeviceOnly;
+      return kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly;
 
     case LUKeychainAccessAttrAccessibleWhenUnlocked:
       return kSecAttrAccessibleWhenUnlocked;
