@@ -10,6 +10,8 @@
 #import "LUKeychainErrorHandler.h"
 #import "LUKeychainServices.h"
 #import "LUKeychainAccessAccessibility.h"
+#import "NSKeyedArchiver+Additions.h"
+#import "NSKeyedUnarchiver+Additions.h"
 
 //! Project version number for LUKeychainAccess.
 FOUNDATION_EXPORT double LUKeychainAccessVersionNumber;
